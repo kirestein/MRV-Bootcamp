@@ -9,14 +9,25 @@
 </head>
 <body>
     <form action="" class="formulario">
+        <h1>Atividade de Sintaxe e Operadores</h1>
         <div>
             <input type="number" name="a" id="a" placeholder="Digite aqui um valor" />
         </div>
         <br>
+        <h2>+</h2> 
+        <br>
         <div>
             <input type="number" name="b" id="b" placeholder="Digite aqui um valor" />
         </div>
+        <br>
+        <div>
+            <button id="botao">Calcular</button>
+        </div>
     </form>
-    <script src="index.js"></script>
+    <br> 
+    <div class="resultado">
+        <p id="saida"></p>
+    </div>
+    <script src="index.js" onclick="calcular(a, b)"></script>
 </body>
 </html>
