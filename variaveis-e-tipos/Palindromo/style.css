@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.primeira {
+    display: inline-block;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#saida {
+    margin: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#palindromo {
+    width: 30rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 3rem;
+}
+
+#botao {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: #d6f5e8;
+    font-weight: bold;
+    transition: 1s;
+}
+
+#botao:hover {
+    cursor: pointer;
+    background-color: #9ae7c6;
+    transition: 1s;
+}
