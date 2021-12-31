@@ -12,9 +12,9 @@ function calcular() {
     var a = parseInt(document.querySelector("#a").value);
     var b = parseInt(document.querySelector("#b").value);
     var resultado = a + b;
-    console.log(resultado);
+    /* console.log(resultado);
     console.log(typeof(a));
-    console.log(b);
+    console.log(b); */
     var saida = document.querySelector("#saida");
     if (a === b) {
         if ((a + b) < 10 && (a + b) < 20) {
